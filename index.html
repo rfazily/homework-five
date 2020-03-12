@@ -23,16 +23,80 @@
   </head>
 
   <body>
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+
+      <!-- This displays our Current Date -->
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+
+       <!-- inserting row set for each business hour separated by div class 'row' -->
+
+       <!-- The task was to display business hours and each time slot should be separated by hours and include a save button -->
+        
+       <div class="row">
+        <div class="col hour time-block">9:00 a.m.</div>
+        <textarea class="col-6 input" id="9am"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">10:00 a.m.</div>
+        <textarea class="col-6 input" id="10am"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">11:00 a.m.</div>
+        <textarea class="col-6 input" id="11am"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">12:00 p.m.</div>
+        <textarea class="col-6 input" id="12pm"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">1:00 p.m.</div>
+        <textarea class="col-6 input" id="1pm"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">2:00 p.m.</div>
+        <textarea class="col-6 input" id="2pm"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">3:00 p.m.</div>
+        <textarea class="col-6 input" id="3pm"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">4:00 p.m.</div>
+        <textarea class="col-6 input" id="4pm"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
+      <div class="row">
+        <div class="col hour time-block">5:00 p.m.</div>
+        <textarea class="col-6 input" id="5pm"></textarea>
+        <button class="col saveBtn"><i class="far fa-save"></i></button>
+      </div>
+
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
